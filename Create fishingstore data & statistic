@@ -1,0 +1,9 @@
+Create Table FishingStore (ID integer Primary key, Name text, Aisle integer, Quantity integer, Price integer);
+Insert into Fishingstore Values (1, "Shirt", 1, 10, 7.99);
+Insert into Fishingstore Values (2, "Bait Worm", 2, 20, 12.99);
+Insert into Fishingstore Values (3, "Hat", 3, 30, 14.99);
+Insert into Fishingstore values (4, "Fishing Pole", 4, 50, 99.99);
+Insert into Fishingstore values (5, "Sunglasses", 5, 25, 11.99);
+
+Select * from fishingstore ORDER BY Price;
+Select AVG (Quantity) from FishingStore
